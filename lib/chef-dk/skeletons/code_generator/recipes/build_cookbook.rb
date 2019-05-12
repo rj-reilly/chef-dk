@@ -14,7 +14,7 @@ cookbook_file config_json do
   not_if { File.exist?(config_json) }
 end
 
-# Adding a new prototype file for delivery-cli local commands
+# Adding the delivery local-mode config
 cookbook_file project_toml do
   source 'delivery-project.toml'
   not_if { File.exist?(project_toml) }
