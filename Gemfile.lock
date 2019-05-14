@@ -7,6 +7,7 @@ PATH
       cookbook-omnifetch (~> 0.5)
       diff-lcs (~> 1.0)
       ffi-yajl (>= 1.0, < 3.0)
+      license-acceptance (~> 1.0, >= 1.0.6)
       minitar (~> 0.6)
       mixlib-cli (>= 1.7, < 3.0)
       mixlib-shellout (>= 2.0, < 4.0)
@@ -485,7 +486,7 @@ GEM
       winrm (~> 2.1)
       winrm-elevated (~> 1.0)
     libyajl2 (1.2.0)
-    license-acceptance (1.0.5)
+    license-acceptance (1.0.6)
       pastel (~> 0.7)
       tomlrb (~> 1.2)
       tty-box (~> 0.3)
@@ -514,7 +515,7 @@ GEM
     mixlib-archive (1.0.1-universal-mingw32)
       mixlib-log
     mixlib-authentication (2.1.1)
-    mixlib-cli (2.0.3)
+    mixlib-cli (2.0.6)
     mixlib-config (3.0.1)
       tomlrb
     mixlib-install (3.11.18)
